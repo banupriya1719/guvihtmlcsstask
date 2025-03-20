@@ -1,0 +1,129 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.top1{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+    font-size: large;
+    align-items: center;
+    background-color: rgb(42, 61, 77);
+    display: flex;
+    height: 85px;
+    flex-wrap: wrap;
+
+}
+.logo{
+display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 10px;
+    width: 200px;
+  color: white;
+  flex-wrap: wrap;
+}
+.git{
+    color: white;
+padding-left: 200px;
+    display: flex;
+    width: 580px;
+  align-items: center;
+justify-content:center;
+font-size: 40px;  
+flex-wrap: wrap;
+
+}
+.main_content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(164, 167, 170, 0.925);   
+    }
+    .left_content{
+        margin-bottom: 50px;
+        margin-left: 100px;
+        margin-top: 50px;
+        background-color: #2b2b2b;
+        display: flex;
+        width: 330px;
+        height: 550px;
+        border-radius: 30px;
+    }
+    input{
+        display: flex;
+            background-color: #2b2b2b;
+            padding: 10px;
+            color: white;
+            width: 250%;
+            border-radius: 5px;
+            margin-left: 70px;
+            margin-bottom: 90px;
+            justify-content: center;
+    }
+
+    .lastbox {
+    padding-bottom: 40px;
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        width: 250%;
+        justify-content: space-between;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-top: 80px;
+        flex-grow: 1;
+         height: 123px;
+    
+    }
+    
+    .right_content{
+       
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 330px;
+        height: 550px;
+        border-radius: 30px;
+
+    }
+    .search-container{
+        display: flex;
+        flex-direction:column;
+        padding: 10px;
+        color: white;
+        width: 100%;
+        text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+}
+.search{
+    margin-left: 150px;
+    width: 600px;
+    height: 30px;
+    border-radius: 10px;
+}
+    .cards {
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+            width: 250%;
+            justify-content: space-between;
+
+            margin-left: 50px;
+            flex-grow: 1;
+        }
+        .card {
+            background-color: #2b2b2b;
+            height: 150px;
+            width: 25%;
+            border-radius: 10px;
+        }
+
+        .lastbox {
+
+            background-color: #2b2b2b;
+        }
